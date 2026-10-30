@@ -1,0 +1,20 @@
+/cache/
+/out/
+/broadcast/
+
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Keep only Solidity sources and licensing/version metadata from vendored dependencies.
+/lib/openzeppelin-contracts/*
+!/lib/openzeppelin-contracts/contracts/
+!/lib/openzeppelin-contracts/contracts/**
+!/lib/openzeppelin-contracts/LICENSE
+!/lib/openzeppelin-contracts/package.json
+/lib/openzeppelin-contracts-upgradeable/*
+!/lib/openzeppelin-contracts-upgradeable/contracts/
+!/lib/openzeppelin-contracts-upgradeable/contracts/**
+!/lib/openzeppelin-contracts-upgradeable/LICENSE
+!/lib/openzeppelin-contracts-upgradeable/package.json
